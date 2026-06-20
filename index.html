@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript_code_running_console</title>
+    <link rel="stylesheet" href="student_profile.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5,1/css/all.min.css">-->
+</head>
+<body>
+    <script src="p_structure/OP.js" defer></script>
+    
+
+    <div class="card">
+
+        <div class="portal-tag">STUDENT PORTAL</div>
+
+        <div class="hero">
+            <h1>Welcome To <span>Student</span><br>Profile Page</h1>
+            <p>Create your academic identity and showcase your goals.</p>
+        </div>
+
+        <!-- Added User Friendly Profile Header -->
+        <div class="profile-top">
+            <div class="avatar">S</div>
+            <div>
+                <h3>Hello, Student 👋</h3>
+                <p>Complete your profile to access personalised academic resources.</p>
+            </div>
+        </div>
+
+        <form>
+
+            <div class="form-grid">
+
+                <div>
+                    <label>FULL NAME</label>
+                    <input type="text" placeholder="e.g. Ada Lovelace" id="fullName">
+                </div>
+
+                <div>
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" placeholder="you@university.edu" id="email">
+                </div>
+    <div>
+                    <label>STUDENT REG</label>
+                    <input type="text" placeholder="e.g. Year-dep_code-001" id="studentId">
+                </div>
+
+                <div>
+                    <label>PHONE NUMBER</label>
+                    <input type="tel" placeholder="+234 xxx xxx xxxx" id="phoneNumber">
+                </div>
+
+                <div>
+                    <label>CURRENT LEVEL</label>
+                    <select id="year">
+                        <option>Select Level</option>
+                        <option>100 Level</option>
+                        <option>200 Level</option>
+                        <option>300 Level</option>
+                        <option>400 Level</option>
+                        <option>500 Level</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>FACULTY</label>
+                    <input type="text" placeholder="Faculty of Health Sciences" id="Faculty">
+                </div>
+
+                <div class="full">
+                    <label>MAJOR / COURSE</label>
+                    <input type="text" placeholder="e.g. Radiography" id="Courses">
+                </div>
+
+                <!-- New Section -->
+                <div class="full">
+                    <label>CAREER INTERESTS</label>
+                    <input type="text" placeholder="Medical Imaging, AI in Healthcare, Research">
+                </div>
+
+                <div class="full">
+                    <label>YOUR BIO 📝</label>
+                    <textarea placeholder="Tell us about yourself, your interests, academic goals, achievements and what motivates you..." id="bio"></textarea>
+                </div>
+            
+            <p id="bioCount">0/400 character</p>
+                <div id="message"></div>
+
+            <!-- Added Student Summary Cards -->
+            <div class="stats">
+
+                <div class="stat-box">
+                    <h4>4.0+</h4>
+                    <p>Target GPA</p>
+                </div>
+
+                <div class="stat-box">
+                    <h4>2026</h4>
+                    <p>Academic Session</p>
+                </div>
+
+                <div class="stat-box">
+                    <h4>🎓</h4>
+                    <p>Future Graduate</p>
+                </div>
+
+            
+            </div>
+
+            <button type="submit" id="submitBtn">
+                SUBMIT PROFILE →
+            </button>
+
+        </form>
+
+        <div class="footer">
+            Academic Year 2025–2026 • Student Records Office
+        </div>
+
+    </div>
+
+</div>
+    
+    <!--<script src="intro.js"></script>
+    <script src="bio_script.js"></script>-->
+    <script src="student_profile.js"></script>
+    
+</body>
+</html>
